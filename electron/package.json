@@ -1,0 +1,15 @@
+{
+  "name": "electron",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+	"type": "commonjs",
+  "dependencies": {
+		"debounce-fn": "^4.0.0",
+		"electron-store": "^8.1.0"
+	},
+	"devDependencies": {
+		"electron": "^26.1.0",
+		"electron-builder": "^24.6.3"
+	}
+}

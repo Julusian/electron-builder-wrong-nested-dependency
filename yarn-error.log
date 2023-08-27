@@ -1,0 +1,41 @@
+Arguments: 
+  /home/julus/.fnm/node-versions/v18.15.0/installation/bin/node /home/julus/.cache/node/corepack/yarn/1.22.19/bin/yarn.js add mimic-fn ^2
+
+PATH: 
+  /run/user/1000/fnm_multishells/1071007_1693176002169/bin:/home/julus/.fnm:/home/julus/go/bin:/home/julus/.local/gems/bin:/home/julus/.krew/bin:/home/julus/.deno/bin:/home/julus/.yarn/bin:/home/julus/.config/yarn/global/node_modules/.bin:/home/julus/.cargo/bin:/usr/local/go/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/julus/.local/bin:/home/julus/.composer/vendor/bin:/opt/raspberrypi/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin:/home/julus/.local/bin:/home/julus/Projects/go/bin:/home/julus/Android/Sdk/emulator:/home/julus/Android/Sdk/tools:/home/julus/Android/Sdk/tools/bin:/home/julus/Android/Sdk/platform-tools:/home/julus/.platformio/penv/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.15.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/%5E2: Not found
+      at params.callback [as _callback] (/home/julus/.cache/node/corepack/yarn/1.22.19/lib/cli.js:66145:18)
+      at self.callback (/home/julus/.cache/node/corepack/yarn/1.22.19/lib/cli.js:140890:22)
+      at Request.emit (node:events:513:28)
+      at Request.<anonymous> (/home/julus/.cache/node/corepack/yarn/1.22.19/lib/cli.js:141862:10)
+      at Request.emit (node:events:513:28)
+      at IncomingMessage.<anonymous> (/home/julus/.cache/node/corepack/yarn/1.22.19/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:627:28)
+      at IncomingMessage.emit (node:events:525:35)
+      at endReadableNT (node:internal/streams/readable:1359:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "electron-builder-bug",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
